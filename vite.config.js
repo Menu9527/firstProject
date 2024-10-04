@@ -4,6 +4,7 @@ import tailwindcss from 'tailwindcss'
 
 
 export default defineConfig({
+  base: '/todolist/',
   plugins: [react()],
   css: {
     postcss: {
